@@ -1,0 +1,15 @@
+{
+  "name": "gatsby-source-graphql-multiple",
+  "version": "0.1.0",
+  "description": "Gatsby source plugin that exposes multiple GraphQL endpoints as a single merged schema",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-link-http": "^1.5.16",
+    "graphql-tools": "^3.1.1",
+    "node-fetch": "^1.7.3",
+    "uuid": "^3.3.3"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.0.15"
+  }
+}
