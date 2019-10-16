@@ -7,15 +7,7 @@ Gatsby source plugin that exposes multiple GraphQL endpoints as a single merged 
 
 ## Installation
 
-To install this plugin, add the following line to your `.npmrc` file (add it to the root of your repo if it doesn't exist):
-
-    @xebiastudio:registry=https://npm.pkg.github.com
-
-Then, you can install it like any other package:
-
     npm install --save @xebiastudio/gatsby-source-graphql-multiple
-
-:warning: Note: to use Yarn you have to do some extra steps, see [this issue](https://github.com/yarnpkg/yarn/issues/7552) for more information.
 
 ## Usage
 
