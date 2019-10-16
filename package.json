@@ -1,6 +1,6 @@
 {
   "name": "@xebiastudio/gatsby-source-graphql-multiple",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Gatsby source plugin that exposes multiple GraphQL endpoints as a single merged schema",
   "license": "MIT",
   "repository": {
