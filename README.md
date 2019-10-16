@@ -14,7 +14,7 @@ To install this plugin, add the following line to your `.npmrc` file (add it to 
 Then, you can install it like any other package:
 
     npm install --save @xebiastudio/gatsby-source-graphql-multiple
-    
+
 :warning: Note: to use Yarn you have to do some extra steps, see [this issue](https://github.com/yarnpkg/yarn/issues/7552) for more information.
 
 ## Usage
@@ -72,8 +72,13 @@ This plugin works well when you have more than one GraphQL source with the same 
 ## Maintaining
 
 ### Publishing a new version
-To publish a new version, update the `version` inside `package.json` (or use `npm version major|minor|patch`), commit the change and tag the commit with the new version number (use the format `vX.Y.Z`). Then, push your changes:
 
-    git push --tags
+To publish a new version, run
+
+    npm version major|minor|patch
+
+This will automatically update the version in the `package.json`, commit the change and tag it. Push your changes:
+
+    git push && git push --tags
 
 Whenever a new tag is created, Github Actions will automatically publish the new version to the Package Registry.
