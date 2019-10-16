@@ -10,7 +10,7 @@ To use this plugin, add the following to your Gatsby configuration:
 // gatsby-config.js
 exports.plugins = [
   {
-    resolve: `gatsby-source-graphql-multiple`,
+    resolve: `@xebiastudio/gatsby-source-graphql-multiple`,
     options: {
       typeName: `MyCombinedSource`,
       fieldName: `myCombinedSource`,
