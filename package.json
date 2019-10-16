@@ -15,8 +15,5 @@
   },
   "peerDependencies": {
     "gatsby": "^2.0.15"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   }
 }
