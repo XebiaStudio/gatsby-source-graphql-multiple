@@ -65,3 +65,12 @@ This plugin works well when you have more than one GraphQL source with the same 
 
 - When using WPGraphQL on a WordPress site that is using the MultiSite plugin
 - When using multiple Contentful spaces with the same content model (when using space-level localization as mentioned [here](https://www.contentful.com/developers/docs/concepts/locales/))
+
+## Maintaining
+
+### Publishing a new version
+To publish a new version, update the `version` inside `package.json` (or use `npm version major|minor|patch`), commit the change and tag the commit with the new version number (use the format `vX.Y.Z`). Then, push your changes:
+
+    git push --tags
+
+Whenever a new tag is created, Github Actions will automatically publish the new version to the Package Registry.
