@@ -1,5 +1,8 @@
 # gatsby-source-graphql-multiple
 
+![version badge](https://img.shields.io/github/package-json/v/xebiastudio/gatsby-source-graphql-multiple)
+![license badge](https://img.shields.io/github/license/xebiastudio/gatsby-source-graphql-multiple)
+
 Gatsby source plugin that exposes multiple GraphQL endpoints as a single merged schema. This plugin is based on the [`gatsby-source-graphql`](https://github.com/sanderploegsma/gatsby/tree/master/packages/gatsby-source-graphql) plugin.
 
 ## Installation
