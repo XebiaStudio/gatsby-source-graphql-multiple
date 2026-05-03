@@ -13,9 +13,9 @@
   },
   "dependencies": {
     "apollo-link-http": "^1.5.16",
-    "graphql-tools": "^3.1.1",
+    "graphql-tools": "^9.0.28",
     "node-fetch": "^1.7.3",
-    "uuid": "^3.3.3"
+    "uuid": "^14.0.0"
   },
   "peerDependencies": {
     "gatsby": "^2.0.15"
